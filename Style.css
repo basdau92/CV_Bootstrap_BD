@@ -1,0 +1,77 @@
+
+/***** Typographie responsive Bootstrap *****/
+/**********************************/ 
+
+html {
+
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-family: 'Bree Serif', serif;
+        font-size: 1.5rem;
+    }
+    
+    p, a{
+        font-family: 'Spectral', serif;
+        font-size: 1.25rem;
+    }
+  }
+  
+  @include media-breakpoint-up(sm) {
+
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2.25rem;
+    }
+    
+    h2{
+        font-family: 'Bree Serif', serif;
+        font-size: 1.75rem;
+    }
+    
+    p, a{
+        font-family: 'Spectral', serif;
+        font-size: 1.375rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2.125rem;
+    }
+    
+    h2{
+        font-family: 'Bree Serif', serif;
+        font-size: 1.625rem;
+    }
+    
+    p, a{
+        font-family: 'Spectral', serif;
+        font-size: 1.375rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-family: 'Bree Serif', serif;
+        font-size: 1.5rem;
+    }
+    
+    p, a{
+        font-family: 'Spectral', serif;
+        font-size: 1.25rem;
+    }
+  }
+
+
+
