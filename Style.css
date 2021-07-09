@@ -21,8 +21,8 @@ p, a{
     font-family: 'Spectral', serif;
 }
  
-.container-fluid{
-    background-image: url(https://i.imgur.com/cLjbgbA.jpg) center fixed no-repeat;
+header{
+    background-image: url("Images_CV_Bootstrap/ecran_coding_lines.jpg");
     background-size: cover;
 }
   
