@@ -4,40 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Press+Start+2P&family=Spectral:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
     <title>CV BDaugenne - Accueil</title>
 </head>
 <body>
     <!-- Début Header -->
     <header>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <ul class="nav nav nav-pills nav-fill justify-content-start mb-2 p-2">
-                        <li class="nav-item">
-                            <a class="nav-link active nav-item" aria-current="page" href="Index.html">Accueil</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="Comp_ss_lang.html">Compétences, Soft Skills & Langues</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Qualifs_exp.html">Qualifications & Expériences professionnelles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Cinteret_hobs_sport.html">Centres d'intérêts, hobbies & sports</a>
-                        </li>
-                    </ul>
-                    <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 border border-dark p-2 text-center text-wrap">
-                        <h1>Développeur pour servir le web; l’alternance pour servir la compétence</h1>
-                        <p class="lead">Développeur web curieux et plein de ressources souhaite acquérir l’expérience professionnelle nécessaire pour pleinement réaliser son projet professionnel.<br> 
-                            Je recherche une entreprise prête à me former en contrat d’apprentissage, au rythme d’une semaine en centre de formation et de trois semaines sur place, 
-                            de manière à collaborer sur le long-terme en ayant intégré son organisation interne, ses supports et outils de travail.
-                        </p>
-                    </div>
+            <div class="row p-0">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 div_navbar border border-dark">
+
+                    <!-- Menu navbar -->
+                    <nav class="navbar navbar-expand-lg text-center p-0">
+                        <div class="container-fluid">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav lien_navbar">
+                              <a class="nav-link" href="Index.html">>> Accueil</a>
+                              <a class="nav-link" href="Comp_ss_lang.html">>> Compétences, Soft Skills & Langues</a>
+                              <a class="nav-link" href="Qualifs_exp.html">>> Qualifications & Expériences professionnelles</a>
+                              <a class="nav-link" href="Cinteret_hobs_sport.html">>> Centres d'intérêts, Hobbies & Sports</a>
+                            </div>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            
+                <!-- Intitulé et chapeau -->  
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 div_bg_intitule border border-dark text-center text-wrap p-2">
+                  <div class="div_chapeau">
+                    <h1 class="p-3">Développeur pour servir le web; l’alternance pour servir la compétence</h1>
+                    <p class="lead" id="p_intitule">Développeur web curieux et plein de ressources souhaite acquérir l’expérience professionnelle nécessaire pour pleinement réaliser son projet professionnel.<br> 
+                    Je recherche une entreprise prête à me former en contrat d’apprentissage, au rythme d’une semaine en centre de formation et de trois semaines sur place, 
+                    de manière à collaborer sur le long-terme en ayant intégré son organisation interne, ses supports et outils de travail.
+                    </p>
+                  </div>
                 </div>
             </div>
         </div>
@@ -46,6 +53,19 @@
 
     <!-- Début Main -->
     <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-sm col-md col-lg col-xl">
+            <figure class="figure">
+              <img src="" class="figure-img img-fluid rounded" alt="Photo de Bastien Daugenne">
+              <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+            </figure>
+
+
+          </div>
+        </div>
+      </div>
+      
 
     </main>
     <!-- Fin Main -->
@@ -56,6 +76,7 @@
     </footer>
     <!-- Fin Footer -->
     
+    <script src="https://kit.fontawesome.com/16019f142c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>

@@ -1,42 +1,102 @@
 /***** FEUILLET STYLE.CSS - CV BOOTSTRAP BD  *****/
-/*************************************************/ 
+/*************************************************/
 
-/***** Typographie responsive Bootstrap *****/
+/***** HEADER *****/
 
-*{
-    font-size: 1.25rem;
-    margin: auto;
-    padding : auto;
-}
+/**** Backgrounds Page Accueil ****/
 
-h1{
-    font-family: 'Press Start 2P', cursive;
-}
-    
-h2{
-    font-family: 'Bree Serif', serif;   
+.div_navbar {
+  background-color: #000000;
 }
 
-p, a{
-    font-family: 'Spectral', serif;
+.div_bg_intitule {
+  background-image: url("Images_CV_Bootstrap/Images_accueil/ecran_coding_lines.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- 
-header{
-    background-image: url("Images_CV_Bootstrap/ecran_coding_lines.jpg");
-    background-size: cover;
+
+.div_chapeau{
+  background-color: rgba(121, 128, 129, 0.35);
 }
-  
+
+/**** Liens ****/
+
+.lien_navbar a {
+  color: #A7F6A7;
+  font-weight: bold;
+  text-shadow: 0em 0em 0.15em #A7F6A7;
+}
+
+.lien_navbar a:hover {
+  background-color: #798081;
+  border: 0.125rem solid #303030;
+  border-radius: 20px;
+  color: #A7F6A7;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0em 0em 0.1em #A7F6A7;
+}
+
+/**** Titres et corps de texte ****/
+
+* {
+  margin: auto;
+  }
+
+p,
+a {
+font-family: "Spectral", serif;
+font-size: 1.125rem;
+}
+
+h1 {
+color: #fefefe;
+font-family: "Press Start 2P", cursive;
+font-size: 1.75rem;
+-webkit-text-stroke: 0.047rem #000000 ;
+}
+
+h2 {
+font-family: "Bree Serif", serif;
+font-size: 1.5rem;
+}
+
+.lead {
+color: #fefefe;
+font-family: "Press Start 2P", cursive;
+font-size: 1.25rem;
+-webkit-text-stroke: 0.047rem #000000;
+}
+
+.navbar-toggler {
+  border-color: #A7F6A7;
+}
+
+.navbar-toggler-icon i {
+  color: #A7F6A7;
+  font-size: 1.5rem;
+}
 
 /***** Media Queries Breakpoints Bootstrap *****/
 
-/***** Small devices (landscape phones, 576px and up) *****/
-@media (min-width: 576px) { ... }
+/***** Small devices (landscape phones, less than 576px) *****/
+@media screen and (max-width: 576px) {
+
+}
 
 /***** Medium devices (tablets, 768px and up) *****/
-@media (min-width: 768px) { ... }
+@media screen and (min-width: 768px) {
+
+}
 
 /***** Large devices (desktops, 992px and up) *****/
-@media (min-width: 992px) { ... }
+@media screen and (min-width: 992px) {
+
+}
 
 /***** Extra large devices (large desktops, 1200px and up) *****/
-@media (min-width: 1200px) { ... }
+@media screen and (min-width: 1200px) {
+
+}
