@@ -1,15 +1,34 @@
 /***** FEUILLET STYLE.CSS - CV BOOTSTRAP BD  *****/
 /*************************************************/
 
-/***** HEADER *****/
+/***** PAGE ACCUEIL *****/
 
 /**** Backgrounds Page Accueil ****/
+
+.div_aside_accueil {
+  background-color: #303030;
+  text-shadow: 0em 0em 0.1em #a7f6a7;
+}
+
+.div_citations_accueil {
+  background-color: #303030;
+}
+
+.div_chapeau_accueil {
+  background-color: #303030;
+  text-shadow: 0em 0em 0.1em #a7f6a7;
+}
+
+.div_footer {
+  background-color: #000000;
+}
 
 .div_navbar {
   background-color: #000000;
 }
 
-.div_bg_intitule {
+header,
+main {
   background-image: url("Images_CV_Bootstrap/Images_accueil/ecran_coding_lines.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -17,65 +36,157 @@
   background-size: cover;
 }
 
-.div_chapeau{
-  background-color: rgba(121, 128, 129, 0.35);
+/**** Cards Page Accueil ****/
+
+.card {
+  background-color: #303030;
 }
 
-/**** Liens ****/
+.blockquote p {
+  color: #a7f6a7;
+  font-family: "Spectral", serif;
+  font-size: 1.125rem;
+}
+
+.blockquote-footer {
+  color: #fefefe;
+  font-family: "Spectral", serif;
+  font-size: 1.150rem;
+}
+
+.card-header {
+  background-color: #a7f6a7;
+  color: #303030;
+  font-family: "Spectral", serif;
+  font-size: 1.150rem;
+  font-weight: bold;
+}
+
+.list-group-item {
+  background-color: #303030;
+  color: #a7f6a7;
+  font-family: "Spectral", serif;
+  font-size: 1.125rem;
+}
+
+.list-group-item i {
+  color: #a7f6a7;
+  font-size: 2rem;
+}
+
+/**** Carroussel Footer****/
+
+.carousel-item img {
+  height: 30%;
+  width: 30%;
+}
+
+/**** Images Page Accueil ****/
+
+.figure_img_accueil {
+  clip-path: ellipse(50% 50%);
+  max-width: 200px;
+  max-height: 250px;
+}
+
+.figure_img_revolte {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+/**** Figures Captions Page Accueil ****/
+
+.fig_caption_accueil small {
+  background-color: #000000;
+}
+
+/**** Liens Page Accueil ****/
 
 .lien_navbar a {
-  color: #A7F6A7;
+  color: #a7f6a7;
   font-weight: bold;
-  text-shadow: 0em 0em 0.15em #A7F6A7;
+  text-shadow: 0em 0em 0.15em #a7f6a7;
 }
 
 .lien_navbar a:hover {
   background-color: #798081;
   border: 0.125rem solid #303030;
   border-radius: 20px;
-  color: #A7F6A7;
+  color: #a7f6a7;
   font-size: 1.5rem;
   font-weight: bold;
-  text-shadow: 0em 0em 0.1em #A7F6A7;
+  text-shadow: 0em 0em 0.1em #a7f6a7;
 }
 
-/**** Titres et corps de texte ****/
+/**** Titres et corps de texte Page Accueil ****/
 
 * {
   margin: auto;
-  }
+}
 
 p,
 a {
-font-family: "Spectral", serif;
-font-size: 1.125rem;
+  font-family: "Spectral", serif;
+  font-size: 1.125rem;
 }
 
-h1 {
-color: #fefefe;
-font-family: "Press Start 2P", cursive;
-font-size: 1.75rem;
--webkit-text-stroke: 0.047rem #000000 ;
+aside h2 {
+  color: #a7f6a7;
+  font-family: "Bree Serif", serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
-h2 {
-font-family: "Bree Serif", serif;
-font-size: 1.5rem;
+aside p {
+  color: #a7f6a7;
+  font-family: "Spectral", serif;
+  font-size: 1.125rem;
+}
+
+.fig_caption_accueil small {
+  color: #a7f6a7;
+  font-family: "Spectral", serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.div_figure_accueil {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.div_figure_accueil q {
+  color: #a7f6a7;
+  font-family: "Spectral", serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.div_chapeau_accueil h1 {
+  color: #a7f6a7;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.75rem;
+}
+
+.div_aside_accueil h2 {
+  font-family: "Bree Serif", serif;
+  font-size: 1.5rem;
 }
 
 .lead {
-color: #fefefe;
-font-family: "Press Start 2P", cursive;
-font-size: 1.25rem;
--webkit-text-stroke: 0.047rem #000000;
+  color: #a7f6a7;
+  font-family: "Spectral", serif;
+  font-size: 1.25rem;
 }
 
 .navbar-toggler {
-  border-color: #A7F6A7;
+  border-color: #a7f6a7;
 }
 
 .navbar-toggler-icon i {
-  color: #A7F6A7;
+  color: #a7f6a7;
   font-size: 1.5rem;
 }
 
@@ -83,20 +194,16 @@ font-size: 1.25rem;
 
 /***** Small devices (landscape phones, less than 576px) *****/
 @media screen and (max-width: 576px) {
-
 }
 
 /***** Medium devices (tablets, 768px and up) *****/
 @media screen and (min-width: 768px) {
-
 }
 
 /***** Large devices (desktops, 992px and up) *****/
 @media screen and (min-width: 992px) {
-
 }
 
 /***** Extra large devices (large desktops, 1200px and up) *****/
 @media screen and (min-width: 1200px) {
-
 }

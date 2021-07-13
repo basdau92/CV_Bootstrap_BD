@@ -16,7 +16,7 @@
     <header>
         <div class="container-fluid">
             <div class="row p-0">
-                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 div_navbar border border-dark">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 div_navbar border border-success p-2">
 
                     <!-- Menu navbar -->
                     <nav class="navbar navbar-expand-lg text-center p-0">
@@ -37,10 +37,10 @@
                 </div>
             
                 <!-- Intitulé et chapeau -->  
-                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 div_bg_intitule border border-dark text-center text-wrap p-2">
-                  <div class="div_chapeau">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-wrap p-2 div_bg_intitule_accueil">
+                  <div class="div_chapeau_accueil">
                     <h1 class="p-3">Développeur pour servir le web; l’alternance pour servir la compétence</h1>
-                    <p class="lead" id="p_intitule">Développeur web curieux et plein de ressources souhaite acquérir l’expérience professionnelle nécessaire pour pleinement réaliser son projet professionnel.<br> 
+                    <p class="lead">Développeur web curieux et plein de ressources souhaite acquérir l’expérience professionnelle nécessaire pour pleinement réaliser son projet professionnel.<br> 
                     Je recherche une entreprise prête à me former en contrat d’apprentissage, au rythme d’une semaine en centre de formation et de trois semaines sur place, 
                     de manière à collaborer sur le long-terme en ayant intégré son organisation interne, ses supports et outils de travail.
                     </p>
@@ -54,30 +54,116 @@
     <!-- Début Main -->
     <main>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col col-sm col-md col-lg col-xl">
+        <div class="row p-0">
+
+          <!-- Figure et citation -->
+            <div class="col col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-2 p-2">
+              <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                  Coordonnées
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1 rue Claude Matrat, 6E chez Alex Thomas</li>
+                  <li class="list-group-item">bastien.daugenne@gmail.com</li>
+                  <li class="list-group-item">06.81.86.46.19</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center div_figure_accueil"></div>
+              <figure class="figure">
+                <img src="Images_CV_Bootstrap/Images_accueil/photo_bd_face.jpg" class="figure-img figure_img_accueil img-fluid rounded" alt="Photo de Bastien Daugenne">
+                <figcaption class="figure-caption fig_caption_accueil text-start"><small>Bastien Daugenne, développeur web.</small></figcaption>
+              </figure>
+            </div>
+
+            <div class="col col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-2 p-2">
+              <div class="card">
+                <div class="card-header">
+                  Citation
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>On devrait repousser les petites améliorations de l’efficacité dans environ 97% des cas, car une optimisation prématurée est la racine de tout le mal.</p>
+                    <footer class="blockquote-footer">Donald Knuth</footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="row p-0">
+          <!-- Présentation --> 
+          <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-2 text-wrap div_aside_accueil">
+            <aside >
+              <h2>Présentation</h2>
+              <p>Je viens initialement du domaine de la psychologie et envisageait de devenir praticien, mais je n’ai pas poussé jusqu’au Master 2. Ayant alors occupé plusieurs postes dans des secteurs diversifiés, j’ai entamé en 2018 une formation pour devenir conseiller funéraire car j’avais travaillé en tant que porteur-fossoyeur-maître de cérémonie et ai occupé un emploi auprès d’OGF Haut-de-Seine jusqu’à fin 2019. La crise sanitaire me privant d’opportunités d’emploi, j’ai alors choisi de me reconvertir dans le développement web car j’ai toujours apprécié les technologies informatiques, la culture web, de plus j’avais déjà commencé à utiliser Python, HTML et CSS pour coder par loisir.</p>
+            </aside>
+          </div>
+
+          <!-- Tableau -->
+          <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-2 div_img_peinture_revolte_accueil">
             <figure class="figure">
-              <img src="" class="figure-img img-fluid rounded" alt="Photo de Bastien Daugenne">
-              <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+              <img src="Images_CV_Bootstrap/Images_accueil/luigi_russolo_la_rivolta_1911.jpg" class="figure-img figure_img_revolte img-fluid rounded" alt="Tableau de Luigi Russolo, La Rivolta - 1911">
+              <figcaption class="figure-caption fig_caption_accueil text-start"><small>Avancer ensemble pour réussir collectivement.</small></figcaption>
             </figure>
-
-
           </div>
         </div>
       </div>
-      
-
     </main>
     <!-- Fin Main -->
 
     <!-- Début Footer -->
     <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-sm-12 col-md-4 col-lg-14 col-xl-4 border border-success p-2 div_footer">
+            
+            <!-- Réseaux sociaux -->
+            <div class="card" style="width: 18rem;">
+              <div class="card-header">
+                Retrouvez-moi sur :
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="https://github.com/basdau92" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li class="list-group-item"><a href="www.linkedin.com/in/bastien-daugenne" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+            
+            <!-- Carroussel technologies utilisées -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Images_CV_Bootstrap/Images_footer/Logo_HTML1.png" class="d-block w-100" alt="Logo HTML5">
+                </div>
+                <div class="carousel-item">
+                  <img src="Images_CV_Bootstrap/Images_footer/Logo_CSS1.png" class="d-block w-100" alt="Logo CSS3">
+                </div>
+                <div class="carousel-item">
+                  <img src="Images_CV_Bootstrap/Images_footer/Logo_JS1.png" class="d-block w-100" alt="Logo JS">
+                </div>
+                <div class="carousel-item">
+                  <img src="Images_CV_Bootstrap/Images_footer/Logo_PHP1.png" class="d-block w-100" alt="Logo PHP">
+                </div>
+              </div>
+            </div>
+
+            <!-- Crédits/Copyright -->
+            <div class="footer_credit_copyright">
+              <p id="footer_credits">Crédits : Bastien Daugenne</p>
+              <p id="footer_copyright">
+                COPYRIGHT © BD 2021. Tous droits réservés.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
 
     </footer>
     <!-- Fin Footer -->
     
     <script src="https://kit.fontawesome.com/16019f142c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
